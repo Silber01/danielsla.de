@@ -13,17 +13,16 @@ function Projects() {
                     </div>
                     <img className="projImage" src={require("../images/colorlearn.png")}/>
                     <p>
-                       ColorLearn is a machine learning application that learns how to categorize colors. Given a color, the program will analyze
-                       its red, green, and blue values and graph their values on a 3D graph along with all other colors that it has seen. Then, it finds the
-                       three closest colors of each color type on that graph, and calculates the average of each color type. The color with the lowest average
-                       distance is concluded to be the same color, meaning the bot has figured out the color. Though this application is not overwhelmingly
-                       complicated, it took several days of planning in order to get the algorithm to be accurate and effective. It is robust, resistant to outliers,
-                       and able to learn quickly to the point where its accuracy reaches upwards of 90% with only a couple hundred data points. Additionally, anyone can
-                       access and teach this bot! Go to <a href="https://www.danielsla.de/colorLearn" target="_blank" rel="noreferrer noopener">this link</a> to check
+                       ColorLearn is a machine learning application that learns how to categorize colors. Either the user provides a color or a random color is generated
+                        and the algorithm attempts to guess what color it is based on the colors it has seen before. This was my first project that involved machine
+                       learning in a worthwhile capacity, and was also my first application that uses a REST API to communicate between front-end and back-end. The project was made
+                       in Python and is usable either via its built-in GUI made with Tkinter or via its webpage which communicates to its REST API made with Flask.
+                       
+                       Go to <a href="https://www.danielsla.de/colorLearn" target="_blank" rel="noreferrer noopener">this link</a> to check
                        it out!
                     </p>
                     <p><b>GitHub: </b><a href="https://github.com/Silber01/learnColor" target="_blank" rel="noreferrer noopener">https://github.com/Silber01/learnColor</a></p>
-                    <p><b>Tools used: </b>Python, MatPlotLib, Tkinter, HTML, CSS, JavaScript, ReactJS, Node.js</p>
+                    <p><b>Tools used: </b>Python, MatPlotLib, Tkinter, Flask, REST, HTML, CSS, JavaScript, ReactJS, Node.js</p>
                 </div>
                 <div className='proj'>
                     <div className="nameDate">
@@ -33,11 +32,12 @@ function Projects() {
                     <div>
                         <img className="projImage" src={require("../images/portfolio.png")}/>
                         <p>
-                            This website was made entirely from scratch using only HTML, CSS, and React.js. All formatting, visuals, and interactivity was made by me.
+                            This website was made entirely from scratch using only HTML, CSS, JavaScript, Node.JS, and React.js. All formatting, visuals, and interactivity was made by me.
                             When making the website, I decided instead of using libraries such as Bootstrap, it would make a great challenge to see if I can make the
-                            website purely from my own code. This website is the result, and I am quite proud of it.
+                            website purely from my own code. This website is the result, and I am quite proud of it. This is also my first major project involving web development.
+                            I have other web development projects planned in the near future, so stay tuned for those!
                         </p>
-                        <p><b>Github: </b>Coming Soon!</p>
+                        <p><b>Github: </b><a href="https://github.com/Silber01/danielsla.de" target="_blank" rel="noreferrer noopener">https://github.com/Silber01/daniesla.de</a></p>
                         <p><b>Tools used:</b> HTML, CSS, JavaScript, ReactJS, NodeJS</p>
                     </div>
                 </div>
@@ -52,8 +52,7 @@ function Projects() {
                         This is my largest project to date in terms of lines of code written. TownyBot is an MMORPG Discord bot that allows the user to make
                         in-game money in order to start and manage a town. Users can work jobs, create towns, invite residents, build buildings, play games, gamble,
                         become rich! This was a passion project made out of respect for a game that I played often as a child that is now gone. The code for this
-                        project is designed to be scalable, readable, and expandable. If I have the time in the future, I may add some updates to this bot! More 
-                        information on this project can be found
+                        project is designed to be scalable, readable, and expandable. If I have the time in the future, I may add some updates to this bot!
 
                     </p>
                     <p><b>GitHub: </b><a href="https://github.com/Silber01/TownyBot" target="_blank" rel="noreferrer noopener">https://github.com/Silber01/TownyBot</a></p>
