@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/danielsla.de/static/css/main.a65b8694.css",
-    "main.js": "/danielsla.de/static/js/main.994a5aa5.js",
+    "main.js": "/danielsla.de/static/js/main.ee89ffde.js",
     "static/media/pdf.worker.js": "/danielsla.de/static/media/pdf.worker.82669b8d0556b815fb68.js",
     "static/media/sjsu.png": "/danielsla.de/static/media/sjsu.eaf0dc3b4bf7d6978111.png",
     "static/media/portfolio.png": "/danielsla.de/static/media/portfolio.f30788f5cdd78230b3bb.png",
@@ -18,10 +18,10 @@
     "static/media/mail.png": "/danielsla.de/static/media/mail.3e2744e21c406f80a3fe.png",
     "index.html": "/danielsla.de/index.html",
     "main.a65b8694.css.map": "/danielsla.de/static/css/main.a65b8694.css.map",
-    "main.994a5aa5.js.map": "/danielsla.de/static/js/main.994a5aa5.js.map"
+    "main.ee89ffde.js.map": "/danielsla.de/static/js/main.ee89ffde.js.map"
   },
   "entrypoints": [
     "static/css/main.a65b8694.css",
-    "static/js/main.994a5aa5.js"
+    "static/js/main.ee89ffde.js"
   ]
 }
