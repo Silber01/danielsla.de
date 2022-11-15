@@ -16,16 +16,10 @@ function ColorLearn() {
     useEffect(() =>{
         setRandomColor()
         window.addEventListener('resize', () => {
+            setPicker();
             
-            if (window.innerWidth < 600)
-            {
-                setUsePicker(false)
-            }
-            else if (window.innerWidth >= 600)
-            {
-                setUsePicker(true)
-            }
         })
+        setPicker();
     }, [])
     useEffect(() => {
         console.log(usePicker)
@@ -45,7 +39,17 @@ function ColorLearn() {
         }
         
     }, [genTimer])
-    
+    function setPicker()
+    {
+        if (window.innerWidth < 600)
+            {
+                setUsePicker(false)
+            }
+            else if (window.innerWidth >= 600)
+            {
+                setUsePicker(true)
+            }
+    }
     function setRandomColor()
     {
         let r = Math.floor(Math.random() * 256)
