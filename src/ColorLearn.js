@@ -105,7 +105,7 @@ function ColorLearn() {
     }
     return (
         <div>
-            <div className='background' />
+            <div className='clbackground' />
             <div className='colorLearnCentererCenterer'>
                 <h1 className='clTitle'>ColorLearn</h1>
                 
