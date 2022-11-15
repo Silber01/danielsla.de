@@ -2,12 +2,11 @@ import React from 'react';
 import './App.css';
 import MainScreen from './MainScreen';
 import ColorLearn from './ColorLearn';
-import {BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import {HashRouter as Router, Route, Routes } from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
-      <h1>test</h1>
       <Router>
         <Routes>
           <Route path="/" element={<MainScreen />} />
