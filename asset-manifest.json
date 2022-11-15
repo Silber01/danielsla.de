@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/danielsla.de/static/css/main.a65b8694.css",
+    "main.js": "/danielsla.de/static/js/main.994a5aa5.js",
+    "static/media/pdf.worker.js": "/danielsla.de/static/media/pdf.worker.82669b8d0556b815fb68.js",
+    "static/media/sjsu.png": "/danielsla.de/static/media/sjsu.eaf0dc3b4bf7d6978111.png",
+    "static/media/portfolio.png": "/danielsla.de/static/media/portfolio.f30788f5cdd78230b3bb.png",
+    "static/media/pfp.jpg": "/danielsla.de/static/media/pfp.5ce129f4c2eb02377832.jpg",
+    "static/media/optinote.png": "/danielsla.de/static/media/optinote.026f97e6d791b98c25e7.png",
+    "static/media/resume.png": "/danielsla.de/static/media/resume.a5617d6607c393470031.png",
+    "static/media/colorlearn.png": "/danielsla.de/static/media/colorlearn.c712cbecfff63cf4c367.png",
+    "static/media/resume.pdf": "/danielsla.de/static/media/resume.545de46b535a608fdf9d.pdf",
+    "static/media/townybot.png": "/danielsla.de/static/media/townybot.754ed01bfc16506a096e.png",
+    "static/media/taskarcade.png": "/danielsla.de/static/media/taskarcade.0e91890dec414ec5aecb.png",
+    "static/media/sce.png": "/danielsla.de/static/media/sce.0eb9f3164c67b39119c0.png",
+    "static/media/leetcodebot.png": "/danielsla.de/static/media/leetcodebot.df31a8396b81cb892dd8.png",
+    "static/media/linkedin.png": "/danielsla.de/static/media/linkedin.ba884e1f9ad4362348c1.png",
+    "static/media/mail.png": "/danielsla.de/static/media/mail.3e2744e21c406f80a3fe.png",
+    "index.html": "/danielsla.de/index.html",
+    "main.a65b8694.css.map": "/danielsla.de/static/css/main.a65b8694.css.map",
+    "main.994a5aa5.js.map": "/danielsla.de/static/js/main.994a5aa5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a65b8694.css",
+    "static/js/main.994a5aa5.js"
+  ]
+}
