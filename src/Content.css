@@ -1,0 +1,104 @@
+
+.navbar
+{
+  width:auto;
+  min-height:100px;
+  height:6.1vw;
+  background-color: #232323;
+  z-index: 1;
+  position:sticky;
+  top: 0;
+  transition: border-radius 0.2s ease-in-out;
+  display:grid;
+  grid-template-columns: repeat(5, calc(30px + 10%));
+  justify-content: center;
+  box-shadow: 0px 5px 5px #0D0D0D;
+  box-shadow: 0px -10px 5px #232323;
+  
+}
+.content
+{
+  z-index:2;
+  min-height: 100vh;
+  width:auto;
+  transition: background-image 1s ease-in-out;
+}
+.navbar button
+{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  font-size:calc(8px + 0.8vw);
+  border-style:none;
+  background-color: transparent;
+  font-weight: bold;
+}
+.navbar button:visited
+{
+  text-decoration: underline;
+}
+.abtMeBtn
+{
+  color: #C1C5DD
+}
+.educationBtn
+{
+  color: #D5EDB1
+}
+.experienceBtn
+{
+  color: #e0a3a3
+}
+.projectsBtn
+{
+  color: #F4C6F3
+}
+.resumeBtn
+{
+  color: #ebd99a
+}
+.background
+{
+  position:absolute;
+  z-index:-1;
+  width:100vw;
+  min-height: 100vh;
+  transition: opacity 0.5s ease-in-out;
+}
+.abtMeBckgrnd
+{
+  background: linear-gradient(rgba(157,205,215,1) 3vw, rgba(185,185,255,1) 25vw, rgba(205,205,205,1) 100%);
+}
+.educationBckgrnd
+{
+  background: linear-gradient(rgb(161, 215, 157) 3vw, rgb(107, 201, 156) 25vw, rgba(205,205,205,1) 100%);
+}
+.experienceBckgrnd
+{
+  background: linear-gradient(rgb(215, 157, 157) 3vw, rgb(209, 162, 128) 25vw, rgba(205,205,205,1) 100%);
+}
+.projectsBckgrnd
+{
+  background: linear-gradient(rgb(220, 173, 215) 3vw, rgb(212, 133, 236) 25vw, rgba(205,205,205,1) 100%);
+}
+.resumeBckgrnd
+{
+  background: linear-gradient(rgb(228, 221, 140) 3vw, rgb(219, 189, 111) 25vw, rgba(205,205,205,1) 100%);
+}
+.descriptions
+{
+  display:grid;
+  place-items:center;
+  margin-top:10vh;
+  margin-bottom:10vh;
+  transition: margin 0.5s ease-in-out;
+  overflow-x: auto;
+}
+.contentContacts
+{
+  width:auto;
+  height:auto;
+  z-index: 3;
+  position:fixed;
+  bottom:1vw;
+  transition: opacity 0.5s ease-in-out;
+}

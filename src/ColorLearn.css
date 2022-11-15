@@ -1,0 +1,163 @@
+
+.background
+{
+    position:absolute;
+    height:auto;
+    width:100vw;
+    background: linear-gradient(rgba(157,205,215,1) 3vw, rgba(185,185,255,1) 25vw, rgba(205,205,205,1) 100%);
+}
+.clTitle
+{
+    margin-top:5vh;
+    background-color: white;
+    padding:1.5vw;
+    border-radius: 1vw;
+    min-width: 20vw;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.colorPicker
+{
+    margin-bottom:0.5vw;
+}
+.colorView
+{
+    width:max(12vh, 15vw);
+    height:max(12vh, 15vw);
+    margin-bottom:2vh;
+    filter: drop-shadow(3px 3px 4px #222222)
+}
+.colorLearnCentererCenterer
+{
+    display:grid;
+    place-items: center;
+    width:auto;
+    height:auto;
+    min-width:80vw;
+    margin-bottom:5vh;
+}
+.container
+{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    width:80vw;
+    background-color: white;
+    border-radius: 3vh;
+    padding:3vh;
+}
+.subcontainer
+{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    width:80vw;
+}
+.colorLearnCenterer
+{
+    
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+.colorLearnCenterer p
+{
+    font-size:calc(6px + 1vw);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:0.5vw;
+}
+.randomize
+{
+    border:none;
+    font-size:calc(6px + 1vw);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:1vw;
+    border-radius: 10%;
+    margin-bottom:2vh;
+    width:max(15vw, 15vh);
+    height:8vh;
+    margin-top:3vh;
+}
+
+.randomize:hover
+{
+    filter:brightness(90%)
+}
+.randomize:active
+{
+    filter:brightness(80%)
+}
+
+.guessButton
+{
+    border:none;
+    font-size:calc(6px + 1vw);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:1vw;
+    border-radius: 10%;
+    width:max(15vw, 15vh);
+    height:8vh;
+    margin-top:3vh;
+}
+.guessButton:hover
+{
+    filter:brightness(90%)
+}
+.guessButton:active
+{
+    filter:brightness(80%)
+}
+.guess
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width:max(24vw, 20vh);
+    height:auto;
+    padding-left:1vh;
+    padding-right:1vh;
+    background-color: lightgray;
+    margin-bottom:3vh;
+}
+.feedback
+{
+    width:max(18vw, 15vh);
+    height:max(10vw, 8vh);
+    background-color: lightgray;
+}
+.chart
+{
+    width:max(25vw, 20vh);
+    height:max(25vw, 20vh);
+    border-style: solid;
+    display:grid;
+    grid-template-columns: repeat(12, 1vw);
+    justify-content: space-evenly;
+    margin-bottom:3vh;
+}
+.bar 
+{
+    width: 1.5vw;
+    height:80%;
+    margin-top:auto;
+    background-color: red;
+    transition: height 0.5s ease-in-out;
+    border-style: solid;
+    border-bottom-style: none;
+    border-width: 1px;
+}
+.hwTitle
+{
+    min-width: 20vw;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.howItWorks
+{
+    width:80vw;
+    background-color: white;
+    border-radius: 3vh;
+    padding:3vh;
+}
+.howItWorks p
+{
+    font-size:calc(6px + 1vw);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:0.5vw;
+}
