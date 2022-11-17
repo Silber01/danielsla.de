@@ -37,7 +37,7 @@ function Splash() {
         }
         const render = () =>
         {
-            if (canvas.width != window.innerWidth / 2 || canvas.height != window.innerHeight / 2)
+            if (canvas.width !== window.innerWidth / 2 || canvas.height !== window.innerHeight / 2)
             {
                 canvasWidth = window.innerWidth / 2;
                 canvasHeight = window.innerHeight / 2;
@@ -56,7 +56,7 @@ function Splash() {
             ctx.clearRect(0, 0, canvas.width, canvas.height);
             circles.forEach(c => {
                 ctx.beginPath();
-                if (c["color"] == -1)
+                if (c["color"] === -1)
                 {
                     ctx.fillStyle = `indigo`;
                 }
@@ -146,17 +146,17 @@ function Splash() {
             <div className="splashContacts">
                 <div>
                     <a href="https://www.linkedin.com/in/danielslade01//" target="_blank" rel="noreferrer noopener">
-                        <img className="icon splashIcon" id="linkedin" src={require("./icons/linkedin.png")}/>
+                        <img className="icon splashIcon" id="linkedin" src={require("./icons/linkedin.png")} alt="linkedin"/>
                     </a>
                     
                     <a href="https://github.com/Silber01/" target="_blank" rel="noreferrer noopener">
-                        <img className="icon splashIcon" id="github" src={require("./icons/github.png")} />
+                        <img className="icon splashIcon" id="github" src={require("./icons/github.png")} alt="github"/>
                     </a>
                     <a href="https://leetcode.com/Silver01/" target="_blank" rel="noreferrer noopener">
-                        <img className="icon splashIcon" id="leetcode" src={require("./icons/leetcode.png")}/>
+                        <img className="icon splashIcon" id="leetcode" src={require("./icons/leetcode.png")} alt="leetcode"/>
                     </a>
                     <a href="mailto:danielgrantslade@gmail.com" target="_blank" rel="noreferrer noopener">
-                        <img className="icon splashIcon" id="email" src={require("./icons/mail.png")}/>
+                        <img className="icon splashIcon" id="email" src={require("./icons/mail.png")} alt="email"/>
                     </a>
                 </div>
             </div>

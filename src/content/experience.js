@@ -1,12 +1,11 @@
 import '../App.css'
-import React, { useRef, useState, useEffect } from 'react';
 function Experience() {
     return (
         <div className>  
             <h1>Experience</h1>
             <div className="nameDate">
-                <h2>Silver Creek Academy</h2>
-                <p>Tutor, September 2021 - Present</p>
+                <h2>Tutor and Educator</h2>
+                <p>Silver Creek Academy, September 2021 - Present</p>
             </div>
             <p>
                 At Silver Creek Academy, I've tutored several high school and middle school students to help them with their math classes.
@@ -19,8 +18,8 @@ function Experience() {
                 <li>Teaching classes of high school students for SAT math preparation</li>
             </ul>
             <div className="nameDate">
-                <h2>Freelance</h2>
-                <p>Tutor, 2018 - 2022</p>
+                <h2>Tutor</h2>
+                <p>Freelance, 2018 - 2022</p>
             </div>
             <p>
                 Before tutoring at an official academy, I did freelance tutoring. During this time, I tutored students in high school math and college level computer science.
@@ -32,8 +31,8 @@ function Experience() {
                 <li>Discovering and utilizing effective methods to teach, both for in-person and online classes</li>
             </ul>
             <div className="nameDate">
-                <h2>Happy Hollow Park and Zoo</h2>
-                <p>Ride Operator, 2017 - 2021</p>
+                <h2>Ride Operator</h2>
+                <p>Happy Hollow Park and Zoo, 2017 - 2021</p>
             </div>
             <p>
                 Happy Hollow was my first job, starting when I was only 16. I operated the various rides that Happy Hollow had to offer while

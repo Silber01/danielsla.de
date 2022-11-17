@@ -1,8 +1,6 @@
 import '../App.css'
 import resume from '../images/resume.png'
 import resumePDF from "../resume.pdf"
-import { Document, Page } from 'react-pdf/dist/esm/entry.webpack5';
-import React, { useRef, useState, useEffect } from 'react';
 function Resume() {
     return (
         <div>  

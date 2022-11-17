@@ -2,8 +2,7 @@
 {
   float:right;
   padding-top:3vh;
-  max-height:min(30vh, 15vw);
-  max-width:40vw;
+  max-height:max(15vh, 15vw);
   padding-left:2vw;
   margin-top:-3vh;
   filter: drop-shadow(3px 3px 4px #222222)
@@ -26,7 +25,8 @@
 .desc
 {
   font-size:calc(6px + 1vw);
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 100;
   width:75vw;
   min-height:45vh;
   background-color: rgb(240, 240, 240);
@@ -110,8 +110,7 @@ hr
 }
 .resumePNG
 {
-  width:40vw;
-  height:auto;
+  width:max(40vw, 30vh);
   margin-top:5vh;
   margin-bottom:2vh;
   border-style: solid;

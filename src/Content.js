@@ -1,6 +1,6 @@
 import './Content.css'
 import './Descriptions.css'
-import React, { useRef, useState, useEffect } from 'react';
+import React, { useRef, useEffect } from 'react';
 import AboutMe from './content/aboutme.js'
 import Education from './content/education.js'
 import Experience from './content/experience.js'
@@ -126,7 +126,7 @@ function Content() {
         let scrollPos = window.pageYOffset;
         
         // console.log(window.pageYOffset);
-        if (scrollPos != 0)
+        if (scrollPos !== 0)
         {
             if (isAtTop)
             {
@@ -272,6 +272,8 @@ function Content() {
                     }, 50)
                 }, 500);
                 break;
+            default:
+                break;
         }
         
     }
@@ -323,17 +325,17 @@ function Content() {
             </div>
             <div className="contentContacts" ref={contactsRef}>
                 <a href="https://www.linkedin.com/in/danielslade01//" target="_blank" rel="noreferrer noopener">
-                    <img className="icon contentIcon" id="linkedin" src={require("./icons/linkedin.png")}/>
+                    <img className="icon contentIcon" id="linkedin" src={require("./icons/linkedin.png")} alt="linkedin"/>
                 </a>
                 
                 <a href="https://github.com/Silber01/" target="_blank" rel="noreferrer noopener">
-                    <img className="icon contentIcon" id="github" src={require("./icons/github.png")} />
+                    <img className="icon contentIcon" id="github" src={require("./icons/github.png")} alt="github"/>
                 </a>
                 <a href="https://leetcode.com/Silver01/" target="_blank" rel="noreferrer noopener">
-                    <img className="icon contentIcon" id="leetcode" src={require("./icons/leetcode.png")}/>
+                    <img className="icon contentIcon" id="leetcode" src={require("./icons/leetcode.png")} alt="linkedin"/>
                 </a>
                 <a href="mailto:danielgrantslade@gmail.com" target="_blank" rel="noreferrer noopener">
-                    <img className="icon contentIcon" id="email" src={require("./icons/mail.png")}/>
+                    <img className="icon contentIcon" id="email" src={require("./icons/mail.png")} alt="email"/>
                 </a>
             </div>
             

@@ -1,5 +1,4 @@
 import '../App.css'
-import React, { useRef, useState, useEffect } from 'react';
 function Projects() {
         
     return (
@@ -11,14 +10,14 @@ function Projects() {
                             <h2>ColorLearn</h2>
                             <p>Fall 2022</p>
                     </div>
-                    <img className="projImage" src={require("../images/colorlearn.png")}/>
+                    <img className="projImage" src={require("../images/colorlearn.png")} alt="ColorLearn"/>
                     <p>
                        ColorLearn is a machine learning application that learns how to categorize colors. Either the user provides a color or a random color is generated
                         and the algorithm attempts to guess what color it is based on the colors it has seen before. This was my first project that involved machine
                        learning in a worthwhile capacity, and was also my first application that uses a REST API to communicate between front-end and back-end. The project was made
                        in Python and is usable either via its built-in GUI made with Tkinter or via its webpage which communicates to its REST API made with Flask.
                        
-                       Go to <a href="https://www.danielsla.de/colorLearn" target="_blank" rel="noreferrer noopener">this link</a> to check
+                       Go to <a href="https://www.danielsla.de/#/colorLearn" target="_blank" rel="noreferrer noopener">this link</a> to check
                        it out!
                     </p>
                     <p><b>GitHub: </b><a href="https://github.com/Silber01/learnColor" target="_blank" rel="noreferrer noopener">https://github.com/Silber01/learnColor</a></p>
@@ -30,7 +29,7 @@ function Projects() {
                         <p>Fall 2022</p>
                     </div>
                     <div>
-                        <img className="projImage" src={require("../images/portfolio.png")}/>
+                        <img className="projImage" src={require("../images/portfolio.png")} alt="danielsla.de"/>
                         <p>
                             This website was made entirely from scratch using only HTML, CSS, JavaScript, Node.JS, and React.js. All formatting, visuals, and interactivity was made by me.
                             When making the website, I decided instead of using libraries such as Bootstrap, it would make a great challenge to see if I can make the
@@ -47,7 +46,7 @@ function Projects() {
                             <h2>TownyBot</h2>
                             <p>Summer 2022</p>
                     </div>
-                    <img className="projImage" src={require("../images/townybot.png")}/>
+                    <img className="projImage" src={require("../images/townybot.png")} alt="TownyBot"/>
                     <p>
                         This is my largest project to date in terms of lines of code written. TownyBot is an MMORPG Discord bot that allows the user to make
                         in-game money in order to start and manage a town. Users can work jobs, create towns, invite residents, build buildings, play games, gamble,
@@ -64,12 +63,13 @@ function Projects() {
                             <h2>LeetCode Bot</h2>
                             <p>2022</p>
                     </div>
-                    <img className="projImage" src={require("../images/leetcodebot.png")}/>
+                    <img className="projImage" src={require("../images/leetcodebot.png")} alt="LeetCode Bot"/>
                     <p>
                         I made this bot because I wanted to learn Python. I was interested in Discord bots, and learned that there is a framework called "discord.py"
                         that allows people to make Discord bots using Python. So, I decided to make this bot in order to learn Python in a trial by fire. The bot picks
                         a random LeetCode problem once a day, and challenges users to solve it. Those who solve it earn points based on the problem's difficulty. The players
-                        with the most points obtain a higher position on the bot's leaderboard. The bot communicates with LeetCode's GraphQL API to detect if a player actually
+                        with the most points obtain a higher position on the bot's leaderboard. </p>
+                        <p>The bot communicates with LeetCode's GraphQL API to detect if a player actually
                         completed a problem. This bot was also created to help me get in the habit of practicing LeetCode problems,
                         which it was very successful at doing so. Though this bot is functional, it was made hastily in a language I was not familiar with. Because of this,
                         a total redesign with my team from the Software and Computer Engineering Society is in the works, which will be open source, scalable, and include new features!
@@ -83,7 +83,7 @@ function Projects() {
                             <h2>Task Arcade</h2>
                             <p>Spring 2021</p>
                     </div>
-                    <img className="projImage" src={require("../images/taskarcade.png")}/>
+                    <img className="projImage" src={require("../images/taskarcade.png")} alt="Task Arcade"/>
                     <p>
                        This project was created for my "CMPE131 - Software Engineering I" class. Task Arcade is a gameified to-do list that tracks how many hours
                        a user has spent doing various real life tasks, and rewards time taken being productive with tokens. The tokens are used in the arcade,
@@ -100,7 +100,7 @@ function Projects() {
                             <h2>OptiNote</h2>
                             <p>Fall 2021</p>
                     </div>
-                    <img className="projImage" src={require("../images/optinote.png")}/>
+                    <img className="projImage" src={require("../images/optinote.png")} alt="OptiNote"/>
                     <p>
                        This project was created for my "CMPE133 - Software Engineering II" class. OptiNote is a notes tracking application that stores and organizes user
                        notes. The app then allows the user to search their notes for information given keywords and organized by specificity, and automatically generates flash cards

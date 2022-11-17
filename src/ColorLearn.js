@@ -22,20 +22,14 @@ function ColorLearn() {
         setPicker();
     }, [])
     useEffect(() => {
-        console.log(usePicker)
     }, [usePicker])
     useEffect(() =>{
         if (genTimer > 0)
         {
-            console.log(genTimer)
             setTimeout(() => {
                 setGenTimer(genTimer - 1)
                 
             }, 1000) 
-        }
-        else
-        {
-            console.log("ready!")
         }
         
     }, [genTimer])
@@ -55,13 +49,13 @@ function ColorLearn() {
         let r = Math.floor(Math.random() * 256)
         let g = Math.floor(Math.random() * 256)
         let b = Math.floor(Math.random() * 256)
-        setColor("#" + (1 << 24 | r << 16 | g << 8 | b).toString(16).slice(1))
+        setColor("#" + ((1 << 24) | (r << 16) | (g << 8) | b).toString(16).slice(1))
     }
     function getGuessText()
     {
-        if (genTimer == 0)
+        if (genTimer === 0)
             return "Guess"
-        else if (genTimer == 1)
+        else if (genTimer === 1)
             return `Guess (Ready in ${genTimer} Second)`
         else
             return `Guess (Ready in ${genTimer} Seconds)`
@@ -86,18 +80,16 @@ function ColorLearn() {
     {
         if (genTimer > 0)
         {
-            console.log("not ready!")
             return
         }
         let r = Number("0x" + color.slice(1, 3))
         let g = Number("0x" + color.slice(3, 5))
         let b = Number("0x" + color.slice(5, 7))
-        let url = 'http://45.79.47.62/getBestFit/' + r + "/" + g + "/" + b
+        let url = 'https://45.79.47.62/getBestFit/' + r + "/" + g + "/" + b
         fetch(url)
         .then((response) => response.json())
         .then((data) => {
             
-            console.log(JSON.stringify(data))
             setCategory(data["color"])
             setGenTimer(1);
             setConfidence(data["confidence"])
@@ -109,7 +101,7 @@ function ColorLearn() {
     }
     return (
         <div>
-            <div className='clbackground' />
+            <div className='clbackground'>
             <div className='colorLearnCentererCenterer'>
                 <h1 className='clTitle'>ColorLearn</h1>
                 
@@ -161,7 +153,7 @@ function ColorLearn() {
                             <div className='colorLearnCenterer'>
                                 <h1 className="hwTitle">How does it work?</h1>
                             </div>
-                            <img className="rightImage" src={require("./images/colorlearn.png")}></img>
+                            <img className="rightImage" src={require("./images/colorlearn.png")} alt="Graph of ColorLearn Knowledge"></img>
                             <p>ColorLearn is a machine learning algorithm that is designed to categorize colors. Though this is an
                                 easy task for humans, computers lack the natural ability to do this. So, ColorLearn learns
                                 what colors are which by letting humans teach it!
@@ -196,7 +188,7 @@ function ColorLearn() {
                     </div>
                     
                         
-                    
+                </div>
                 </div>
             
     )

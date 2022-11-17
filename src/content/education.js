@@ -58,27 +58,27 @@ function Education() {
         <div>
             
             <h1>Education</h1>
-            <img className="rightImage" id="sjsu" src={require("../images/sjsu.png")}/>
+            <img className="rightImage" id="sjsu" src={require("../images/sjsu.png")} alt="Tower Hall at SJSU"/>
             <p><b>University:</b> San Jose State University</p>
             <p><b>Major:</b> B.S. Software Engineering</p>
             <p><b>Anticipated Graduation:</b> May 2023</p>
             <p><b>GPA:</b> 3.86</p>
             <p><b>Awards: </b>President's Scholar, Spring 2021 and Spring 2022</p>
             <p className="classExpandBtn" onClick={toggleClasses}><b>Classes Taken</b> {' '}
-            <img className="dropdown" src={require("../images/dropdown.png")} ref={dropdownBtnRef}/>
+            <img className="dropdown" src={require("../images/dropdown.png")} ref={dropdownBtnRef} alt=""/>
             </p>
                 <div className="accordion" ref={classesRef}>
                     <header>{getClassContent()}</header>
                 </div>
             <hr></hr>
             <h2>Clubs</h2>
-            <img className="rightImage" id="sce" src={require("../images/sce.png")}/>
+            <img className="rightImage" id="sce" src={require("../images/sce.png")} alt="SCE Logo"/>
             <p>Since March 2022, I have been a proud member of the Software and Computer Engineering Society (SCE).
                 To be more specific, I am a Development Team Officer, Event Planner, and Public Relations Officer for SCE.
                 I spent the first few months meeting fellow club members and studying for the development team that I signed up to join,
                 the AI and Machine Learning team. During this time, I also joined the Event Planning and Public Relations team and earned the opportunity
-                to lead a project myself.
-                Currently, I am working on two projects for SCE. With my AI and Machine Learning team, we are designing an AI algorithm
+                to lead a project myself.</p>
+                <p>Currently, I am working on two projects for SCE. With my AI and Machine Learning team, we are designing an AI algorithm
                 capable of playing chess, and, with the team I am leading, we are creating a chatbot for the social media application "Discord" that
                 challenges users to solve a daily LeetCode problem in order to earn points with the goal of obtaining the highest score.
                  Though both of these projects are in their early stages of development, I am excited to use my knowledge
