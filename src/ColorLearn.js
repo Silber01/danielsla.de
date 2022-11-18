@@ -8,6 +8,7 @@ function ColorLearn() {
     const [confidence, setConfidence] = useState({"PURPLE":0,"PINK":0,"RED":0,"BLUE":0,"BROWN":0,"DARK GRAY":0,"ORANGE":0,"GREEN":0,"LIGHT GRAY":0,"YELLOW":0,"WHITE":0,"BLACK":0})
     const [genTimer, setGenTimer] = useState(0)
     const [usePicker, setUsePicker] = useState(true)
+    const [working, setWorking] = useState(true)
     const colorPickerRef = useRef(null)
 
     useEffect(() =>{
@@ -76,6 +77,14 @@ function ColorLearn() {
             )
         }
     }
+    function getWorkingText()
+    {
+        if (working)
+        {
+            return "My guess is " + category;
+        }
+        return "Looks like the ColorLearn servers are down. Sorry!"
+    }
     function getGuess()
     {
         if (genTimer > 0)
@@ -85,17 +94,18 @@ function ColorLearn() {
         let r = Number("0x" + color.slice(1, 3))
         let g = Number("0x" + color.slice(3, 5))
         let b = Number("0x" + color.slice(5, 7))
-        let url = 'https://45.79.47.62/getBestFit/' + r + "/" + g + "/" + b
+        let url = 'https://colorlearnai.com/getBestFit/' + r + "/" + g + "/" + b
         fetch(url)
         .then((response) => response.json())
         .then((data) => {
-            
-            setCategory(data["color"])
+            console.log(data)
+            setCategory(data[0])
             setGenTimer(1);
-            setConfidence(data["confidence"])
+            setConfidence(data[1])
                 
         })
         .catch((err) => {
+            setWorking(false);
            console.log(err.message);
         })
     }
@@ -124,7 +134,7 @@ function ColorLearn() {
                                 <div className='bar' style={{backgroundColor: `black`, height: `${confidence["BLACK"]}%`}}></div>
                             </div> 
                             <div className='guess'>
-                                <h2>My guess is: {category}</h2>
+                                <h2>{getWorkingText()}</h2>
                             </div>
                         </div>
                         <div className="colorLearnCenterer">
