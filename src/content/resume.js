@@ -1,6 +1,6 @@
 import '../App.css'
-import resume from '../images/resume.png'
-import resumePDF from "../resume.pdf"
+import resume from '../images/resume12_15_22.png'
+import resumePDF from "../resume12_15_22.pdf"
 function Resume() {
     return (
         <div>  

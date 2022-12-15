@@ -40,7 +40,23 @@ function Projects() {
                         <p><b>Tools used:</b> HTML, CSS, JavaScript, ReactJS, NodeJS</p>
                     </div>
                 </div>
-
+                <div className='proj'>
+                    <div className="nameDate">
+                        <h2>CSIL Interpreter</h2>
+                        <p>Fall 2022</p>
+                    </div>
+                    <div>
+                        <img className="projImage" src={require("../images/csil.PNG")} alt="danielsla.de"/>
+                        <p>
+                            CSIL Interpreter is a programming interpreter for CSIL, a basic version of C. The language supports use of int and string variables and expressions, input, printing,
+                            if statements, else statements, and while loops. This project was created in order to practice use of data structures and algorithms along with
+                            memory management in C++. This also allows me to get a deeper understanding of how interpreters work and how language syntax is determined. Feel free to
+                            check it out using the Github link below!
+                        </p>
+                        <p><b>Github: </b><a href="https://github.com/Silber01/interpreter" target="_blank" rel="noreferrer noopener">https://github.com/Silber01/interpreter</a></p>
+                        <p><b>Tools used:</b> C++</p>
+                    </div>
+                </div>
                 <div className='proj'>
                     <div className="nameDate">
                             <h2>TownyBot</h2>
