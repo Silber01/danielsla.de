@@ -1,26 +1,27 @@
 {
   "files": {
     "main.css": "/static/css/main.a4aa04e4.css",
-    "main.js": "/static/js/main.8e318947.js",
+    "main.js": "/static/js/main.b32e59c1.js",
     "static/media/pfp.png": "/static/media/pfp.5f03ae8195e4bdc109e4.png",
     "static/media/sjsu.png": "/static/media/sjsu.eaf0dc3b4bf7d6978111.png",
     "static/media/portfolio.png": "/static/media/portfolio.f30788f5cdd78230b3bb.png",
     "static/media/optinote.png": "/static/media/optinote.026f97e6d791b98c25e7.png",
-    "static/media/resume.png": "/static/media/resume.fa4afff4f302af715e01.png",
+    "static/media/resume12_15_22.png": "/static/media/resume12_15_22.6cb66436f5081724d7de.png",
     "static/media/colorlearn.png": "/static/media/colorlearn.c712cbecfff63cf4c367.png",
-    "static/media/resume.pdf": "/static/media/resume.d3f0c5febabbaccfc584.pdf",
+    "static/media/resume12_15_22.pdf": "/static/media/resume12_15_22.7cd0887377646558d5c8.pdf",
     "static/media/townybot.png": "/static/media/townybot.754ed01bfc16506a096e.png",
     "static/media/taskarcade.png": "/static/media/taskarcade.0e91890dec414ec5aecb.png",
     "static/media/sce.png": "/static/media/sce.0eb9f3164c67b39119c0.png",
     "static/media/leetcodebot.png": "/static/media/leetcodebot.df31a8396b81cb892dd8.png",
     "static/media/linkedin.png": "/static/media/linkedin.ba884e1f9ad4362348c1.png",
     "static/media/mail.png": "/static/media/mail.3e2744e21c406f80a3fe.png",
+    "static/media/csil.PNG": "/static/media/csil.802bd5485b44884df6d7.PNG",
     "index.html": "/index.html",
     "main.a4aa04e4.css.map": "/static/css/main.a4aa04e4.css.map",
-    "main.8e318947.js.map": "/static/js/main.8e318947.js.map"
+    "main.b32e59c1.js.map": "/static/js/main.b32e59c1.js.map"
   },
   "entrypoints": [
     "static/css/main.a4aa04e4.css",
-    "static/js/main.8e318947.js"
+    "static/js/main.b32e59c1.js"
   ]
 }
